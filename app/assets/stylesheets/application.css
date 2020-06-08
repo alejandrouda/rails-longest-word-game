@@ -1,0 +1,76 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ body{
+    margin-left: 50px
+ }
+
+ ul{
+    display: flex;
+    margin-left: -50px;
+    
+ }
+
+ h1 {
+     color: rgb(100, 97, 97);
+     font-size: 40px;
+     
+
+ }
+
+ li{
+     font-size: 26px;
+     font-weight: 650;
+     color: white;
+     background-color: #3498dc;
+     padding: 10px;
+     border: solid 1px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border: solid 1px ;
+     border-color: rgba(235, 214, 214, 0.562);
+     box-shadow: 10px 10px 10px rgba(235, 214, 214, 0.849);
+     width: 30px;
+     height: 30px;
+     margin: 10px;
+ }
+
+ p{
+     color: rgb(85, 83, 83);
+     font-size: 18px;
+ }
+
+ #input{
+    border: solid 2px;
+    border-color: rgba(119, 119, 119, 0.24);
+     height: 35px;
+     width: 500px;
+     border-radius: 5px 0px 0px 5px;
+     font-size: 20px
+ }
+
+ #submit {
+    height: 40px;
+    margin-left: -5px;
+    background-color: white;
+    font-weight: 500px;
+    border-radius: 0px 5px 5px 0px;
+    border: solid 2px;
+    border-color: rgba(119, 119, 119, 0.24);
+    padding: 13px 20px 24px 20px;
+    border-left: none
+ }
